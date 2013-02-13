@@ -15,7 +15,7 @@ Rather than diving into any complicated auth issues that usually come up with us
 
 	python tweetlib.py
 	
-User is then prompted for a query term for 
+User is then prompted for a query term, and a term to replace it with.
 
 	Search for tweets about:
 	Madlib it with:
