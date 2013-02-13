@@ -1,5 +1,5 @@
-# Homework #1.
->Create a Python program that behaves like a UNIX text processing program (such as cat, grep, tr, etc.). Your program should take text as input (any text, or a particular text of your choosing) and output a version of the text that has been filtered and/or munged. Be creative, insightful, or intentionally banal.
+# Homework #2.
+>The digital cut-up. Write a program that reads in and creatively re-arranges the content of one or more source texts. What is the unit of your cut-up technique? (the word, the line, the character? something else?) How does your procedure relate (if at all) to your choice of source text? Feel free to build on your assignment from last week.
 
 Our homework from last week included a reading from Ron Padgett's book, [*Creative Reading: What It Is, How to Do It, and Why*](http://www.amazon.com/Creative-Reading-What-How-Why/dp/0814109063). One of the exercises that he outlined for "Reading Creatively," which he titled *line looping* sort of stuck with me. The idea was to read every line twice in order to really emphasize rhythm in the text you're reading. His example lead to an almost intuitive generation of standard twelve-bar blues. I loved it. I love the blues. So, I thought that'd be a fun first exercise.
 

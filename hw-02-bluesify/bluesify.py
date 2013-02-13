@@ -2,6 +2,7 @@ import sys
 import random
 from random import choice
 
+# Some init-ing.
 outstr = ''
 j = 0
 
@@ -20,10 +21,12 @@ for i, line in enumerate(lines):
 	outstr += line
 	outstr += '\n'
 
-	# This seems so hacky, I kind of hate it. Could not think of a better way to count two lines away from the bluesified line in order to create a proper stanza.
+	# This seems so hacky, I kind of hate it. Could not think of a better way to count two
+	# lines away from the bluesified line in order to create a proper stanza.
 	j += 1
 
-	# To bluesify, we need to repeat the first line in every stanza (every third line), and make it bluesy.
+	# To bluesify, we need to repeat the first line in every stanza
+	# (every third line of the input text), and make it bluesy.
 	if i % 3 == 0:
 		outstr += choice(bluesify)
 		outstr += ', '

@@ -1,7 +1,12 @@
 # [Reading and Writing Electronic Text](http://rwet.decontextualize.com)
 ## ITP.Spring 2013
 
-Code repo, Homework, projects, etc. for Jannae Jacks. All things RWET will be here. Ideally. 
+Code repo, Homework, projects, etc. for Jannae Jacks. All things RWET will be here. Ideally.
+
+#### Scripts inside:
+
+* HW01: [Tweetlibs]()
+* HW01/2: [Bluesify]()
 
 ### Course Description
 
