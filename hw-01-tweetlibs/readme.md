@@ -21,4 +21,25 @@ User is then prompted for a query term for
 	Madlib it with:
 	
 A couple of amusing results:
+	
+	Replacing "boehner" with "unicorns"...
+	
+	lauer asks unicorns about these dc kids would view congress, w/ so few black lawmakers. worth noting that only 19% of kids in dc are white.
+	
+	suddenly i find myself wishing i could shave unicorns's eyebrows
+	
+	unicorns says no to minimum wage increase
+	
+	unicorns: 'hard to imagine' budget agreement http://t.co/u8kxsvbe #business #biznews #ap
+	
+And:
 
+	Replacing "obama" with "kittens"...
+	
+	'no one working full time should be living in poverty!' president kittens #sotu2013
+	
+	anonymous threatens to hack kittens's state of the union broadcast http://t.co/ywpfsj2f
+	
+	why kittens's executive order on cybersecurity doesn't satisfy most experts http://t.co/ipf1hbfk #cybersec #datasec #sotu
+	
+	join the state of the union: fireside hangout with president kittens on february 14.
