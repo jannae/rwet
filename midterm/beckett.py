@@ -104,17 +104,17 @@ verbs = get_words(words_tagged,'V')
 nouns = get_words(words_tagged,'N')
 
 beckett = ''
-
+begn = ran(nouns)
 # There will be 7 stanzas
 
 for x in range(0, 7):
 	phrases = []
-	begn = ran(nouns)
+	begn2 = ran(adjs)
 	idx = begn
 
 	# beckett += str(x)+': '
 	beckett += begn+'\n'
-	beckett += ran(adjs)+' '
+	beckett += begn2+' '
 	beckett += begn+' '
 
 	ib = depunc(ibgram_by_word(words,begn))
@@ -139,6 +139,7 @@ for x in range(0, 7):
 		beckett += ran(adjs)+' '+ran(verbs)+' '+ran(adjs)+' '
 
 	beckett += begn+'\n\n'
+	begn = begn2
 	print x
 
 print beckett
