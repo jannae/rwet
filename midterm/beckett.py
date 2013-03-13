@@ -7,10 +7,6 @@ import string
 from nltk.corpus import brown
 from random import choice, randint
 
-# text = ''
-# for line in sys.stdin:
-#     text += line
-
 def process_text(srctxt):
 	#tested, works.
 	#returns set of properly tokenized large piece of text
@@ -64,30 +60,9 @@ def depunc(listy):
 	listy = [s for s in listy if s]
 	return listy
 
-
-
-# for testing process_text function. WORKS.
-# text = process_text(text)
-# print get_verbs(text)
-# print get_words(text,'VD')
-# tagged = findtags('V',text)
-# for tag in sorted(tagged):
-# 	print tag, tagged[tag]
-
-# for s in sents_tagged:
-# 	phrase = tgram_by_tag(s,'N','IN','V')
-# 	if len(phrase) > 0:
-# 		test.append(phrase)
-# if len(test) > 0:
-# 	ph = test.pop(randint(1,len(test)))
-# 	print ph[0]
-
-# http://nltk.googlecode.com/svn/trunk/doc/book/ch05.html
-
-# print sorted(set(b for (a, b) in nltk.ibigrams(text) if a == 'often'))
-
-# here, I'm trying to get a verb phrase, separated by the tag "to"
-# From:
+# text = ''
+# for line in sys.stdin:
+#     text += line
 
 # brown categories: ['adventure', 'belles_lettres', 'editorial', 'fiction', 'government', 'hobbies', 'humor', 'learned', 'lore', 'mystery', 'news', 'religion', 'reviews', 'romance', 'science_fiction']
 cat = 'fiction'
@@ -104,20 +79,20 @@ verbs = get_words(words_tagged,'V')
 nouns = get_words(words_tagged,'N')
 
 beckett = ''
-begn = ran(nouns)
+start = ran(nouns)
 # There will be 7 stanzas
 
 for x in range(0, 7):
 	phrases = []
-	begn2 = ran(adjs)
-	idx = begn
+	start2 = ran(adjs)
+	idx = start
 
 	# beckett += str(x)+': '
-	beckett += begn+'\n'
-	beckett += begn2+' '
-	beckett += begn+' '
+	beckett += start+'\n'
+	beckett += start2+' '
+	beckett += start+' '
 
-	ib = depunc(ibgram_by_word(words,begn))
+	ib = depunc(ibgram_by_word(words,start))
 	if len(ib) > 0:
 		beckett += choice(ib)+' '
 		idx = choice(ib)
@@ -125,7 +100,7 @@ for x in range(0, 7):
 		beckett += choice(verbs)+' '
 		idx = choice(verbs)
 
-	#begn2 = idx
+	#start2 = idx
 
 	beckett += '\n'
 	for s in sents_tagged:
@@ -140,8 +115,8 @@ for x in range(0, 7):
 	else:
 		beckett += ran(adjs)+' '+ran(verbs)+' '+ran(adjs)+' '
 
-	beckett += begn+'\n\n'
-	begn = begn2
+	beckett += start+'\n\n'
+	start = start2
 	print x
 
 print beckett
