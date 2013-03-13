@@ -1,9 +1,9 @@
 # Homework #2.
 >The digital cut-up. Write a program that reads in and creatively re-arranges the content of one or more source texts. What is the unit of your cut-up technique? (the word, the line, the character? something else?) How does your procedure relate (if at all) to your choice of source text? Feel free to build on your assignment from last week.
 
-Our homework from last week included a reading from Ron Padgett's book, [*Creative Reading: What It Is, How to Do It, and Why*](http://www.amazon.com/Creative-Reading-What-How-Why/dp/0814109063). One of the exercises that he outlined for "Reading Creatively," which he titled *line looping* sort of stuck with me. The idea was to read every line twice in order to really emphasize rhythm in the text you're reading. His example lead to an almost intuitive generation of standard twelve-bar blues. I loved it. I love the blues. So, I thought that'd be a fun first exercise.
+Our homework from week one included a reading from Ron Padgett's book, [*Creative Reading: What It Is, How to Do It, and Why*](http://www.amazon.com/Creative-Reading-What-How-Why/dp/0814109063). One of the exercises that he outlined for "Reading Creatively," which he titled *line looping* sort of stuck with me. The idea was to read every line twice in order to really emphasize rhythm in the text you're reading. His example lead to an almost intuitive generation of standard twelve-bar blues. I loved it. I love the blues. So, I thought that'd be a fun first exercise.
 
-**Bluesify.py** is my first python attempt. It takes in a text (prerequisite: the inputs need consistently spaced line breaks, so poetry works best), and makes it bluesy. Repeats the first line, with bluesy gusto, and segments the piece out into a potential twelve-bar blues format. Code is fully commented.  Ideally this would count beats or syllables, but i'm not there yet. :)
+**Bluesify.py** takes in a text (prerequisite: the inputs need consistently spaced line breaks, so poetry works best), and makes it bluesy. Repeats the first line, with bluesy gusto, and segments the piece out into a potential twelve-bar blues format. Code is fully commented.  Ideally this would count beats or syllables, but i'm not there yet. :)
 
 Included are several poems I experimented with. Poems were chosen pretty randomly courtesy of [poets.org](http://www.poets.org). 
 
