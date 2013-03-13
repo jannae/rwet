@@ -21,12 +21,12 @@ Stanzas should follow a 1-3-4 word progression. The form is thus:
 ####Poetic form:
 
 > Noun  
-> Descriptor | repeat Noun | directly linked Bigram  
-> Trigram for directly linked Bigram | repeat Noun
+> Descriptor **&lt;&gt;** repeat Noun **&lt;&gt;** directly linked Bigram  
+> Trigram for directly linked Bigram **&lt;&gt;** repeat Noun
 >
 > Descriptor  
-> new Noun | repeat Descriptor | directly linked Bigram  
-> Trigram for directly linked Bigram | repeat Descriptor
+> new Noun **&lt;&gt;** repeat Descriptor **&lt;&gt;** directly linked Bigram  
+> Trigram for directly linked Bigram **&lt;&gt;** repeat Descriptor
 >  
 > Begin with new noun, and repeat x times. (experimented with 5 and 7)
 
