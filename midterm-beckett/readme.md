@@ -12,9 +12,9 @@
 
 When approaching this assignment, I thought about conversations we had class concerning the existential nature of computer poetry. It was important to me to experiment with my perspective of algorithmic tools versus creative production, and I wanted to give the computer as much lexical freedom as possible to create on it's own.  The Natural Language Toolkit seemed an appealing place to start, as it contains large amounts of syntatically relevant data in addition to the vocabluary it provides.
 
-I love Samuel Beckett, and his works have always seemed to be a source of inspiration to me. I remembered reading a poem of his ([What is the word](beckett-what.md)) at a young age and imagining him throwing darts at a wall full of words while writing it. This seemed like an ideal source of inspiration for a set of algorithmic guidelines to give a computer to write Beckett-esque poetry with.
+I love Samuel Beckett, and his works have always seemed to be a source of inspiration to me. I remembered reading a poem of his ([What is the word](docs/beckett-what.md)) at a young age and imagining him throwing darts at a wall full of words while writing it. This seemed like an ideal source of inspiration for a set of algorithmic guidelines to give a computer to write Beckett-esque poetry with.
 
-Other sources of inspiration: ([Not I](beckett-not-i.md) and [Texts for Nothing #4](beckett-nothing.md))
+Other sources of inspiration: ([Not I](docs/beckett-not-i.md) and [Texts for Nothing #4](docs/beckett-nothing.md))
 
 Stanzas should follow a 1-3-4 word progression. The form is thus:
 
@@ -74,7 +74,7 @@ Stanzas should follow a 1-3-4 word progression. The form is thus:
 	double-breasted frederick sayin
 	cuts above any frederick
 
-[Dump of all favorite examples from testing](examples.md)
+[Dump of all favorite examples from testing](docs/examples.md)
 
 ####Requirements:
 
