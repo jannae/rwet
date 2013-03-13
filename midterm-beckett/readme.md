@@ -91,7 +91,12 @@ More Examples:
 	
 ####Command Line:
 
-	python beckett.py
+usage: python beckett.py &lt;brown.corpus.category&gt; &lt;stanzas&gt;  
+(arguments can be empty)
+
+	python beckett.py fiction 5
+	
+
 
 
 
