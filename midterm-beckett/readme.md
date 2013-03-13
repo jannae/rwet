@@ -28,7 +28,7 @@ Stanzas should follow a 1-3-4 word progression. The form is thus:
 > new Noun | repeat Descriptor | directly linked Bigram  
 > Trigram for directly linked Bigram | repeat Descriptor
 >  
-> Begin with new noun, and repeat x times. (experimented with 3, 5 and 7)
+> Begin with new noun, and repeat x times. (experimented with 5 and 7)
 
 ####Examples:
 
@@ -74,7 +74,12 @@ Stanzas should follow a 1-3-4 word progression. The form is thus:
 	double-breasted frederick sayin
 	cuts above any frederick
 
-[Dump of all favorite examples from testing](docs/examples.md)
+More Examples:
+
+* ["Fiction" Category](docs/examples-fiction.md)
+* ["Lore" Category](docs/examples-lore.md)
+* ["Sci-Fi" Category](docs/examples-sci-fi.md)
+* ["News" Category](docs/examples-news.md)
 
 ####Requirements:
 
