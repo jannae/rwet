@@ -125,6 +125,8 @@ for x in range(0, 7):
 		beckett += choice(verbs)+' '
 		idx = choice(verbs)
 
+	#begn2 = idx
+
 	beckett += '\n'
 	for s in sents_tagged:
 		for sep in seps:
