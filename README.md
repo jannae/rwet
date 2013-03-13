@@ -6,7 +6,8 @@ Code repo, Homework, projects, etc. for Jannae Jacks. All things RWET will be he
 #### Scripts inside:
 
 * HW01: [Tweetlibs](hw-01-tweetlibs/)
-* HW01/2: [Bluesify](hw-02-bluesify/)
+* HW02: [Bluesify](hw-02-bluesify/)
+* MIDTERM: [Mechanical Beckett](midterm-beckett/)
 
 ### Course Description
 

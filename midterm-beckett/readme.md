@@ -21,14 +21,14 @@ Stanzas should follow a 1-3-4 word progression. The form is thus:
 ####Poetic form:
 
 > Noun  
-> Descriptor | repeat Noun | directly linked Bigram  
-> Trigram for directly linked Bigram | repeat Noun
+> Descriptor **&lt;&gt;** repeat Noun **&lt;&gt;** directly linked Bigram  
+> Trigram for directly linked Bigram **&lt;&gt;** repeat Noun
 >
 > Descriptor  
-> new Noun | repeat Descriptor | directly linked Bigram  
-> Trigram for directly linked Bigram | repeat Descriptor
+> new Noun **&lt;&gt;** repeat Descriptor **&lt;&gt;** directly linked Bigram  
+> Trigram for directly linked Bigram **&lt;&gt;** repeat Descriptor
 >  
-> Begin with new noun, and repeat x times. (experimented with 3, 5 and 7)
+> Begin with new noun, and repeat x times. (experimented with 5 and 7)
 
 ####Examples:
 
@@ -74,7 +74,12 @@ Stanzas should follow a 1-3-4 word progression. The form is thus:
 	double-breasted frederick sayin
 	cuts above any frederick
 
-[Dump of all favorite examples from testing](docs/examples.md)
+More Examples:
+
+* ["Fiction" Category](docs/examples-fiction.md)
+* ["Lore" Category](docs/examples-lore.md)
+* ["Sci-Fi" Category](docs/examples-sci-fi.md)
+* ["News" Category](docs/examples-news.md)
 
 ####Requirements:
 
@@ -86,7 +91,12 @@ Stanzas should follow a 1-3-4 word progression. The form is thus:
 	
 ####Command Line:
 
-	python beckett.py
+usage: python beckett.py &lt;brown.corpus.category&gt; &lt;stanzas&gt;  
+(arguments can be empty)
+
+	python beckett.py fiction 5
+	
+
 
 
 

@@ -1,5 +1,6 @@
 # Import my collection of functions for use with nltk.
 import nltkjj
+import sys
 from nltkjj import *
 
 from nltk.corpus import brown
@@ -8,9 +9,14 @@ from random import choice, randint
 # text = ''
 # for line in sys.stdin:
 #     text += line
-
 # brown categories: ['adventure', 'belles_lettres', 'editorial', 'fiction', 'government', 'hobbies', 'humor', 'learned', 'lore', 'mystery', 'news', 'religion', 'reviews', 'romance', 'science_fiction']
-cat = 'fiction'
+
+if len(sys.argv) > 0:
+	cat = str(sys.argv[1])
+	stanzas = int(sys.argv[2])
+else:
+	cat = 'fiction'
+	stanzas = 5
 
 words = brown.words(categories=cat)
 sents = brown.sents(categories=cat)
@@ -38,7 +44,7 @@ start = ran(nouns)
 ps = 'J' # used for flipping the part of speech focus. Here we began with a noun, but we want the next word to be an adjective.
 
 # There will be 5 stanzas
-for x in range(0, 5):
+for x in range(0, stanzas):
 	phrases = []
 	# idx variable used to keep track of the focus word when needed.
 	idx = start
