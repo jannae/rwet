@@ -90,7 +90,7 @@ def depunc(listy):
 # From:
 
 # brown categories: ['adventure', 'belles_lettres', 'editorial', 'fiction', 'government', 'hobbies', 'humor', 'learned', 'lore', 'mystery', 'news', 'religion', 'reviews', 'romance', 'science_fiction']
-cat = 'learned'
+cat = 'fiction'
 
 words = brown.words(categories=cat)
 sents = brown.sents(categories=cat)
@@ -120,10 +120,10 @@ for x in range(0, 7):
 	ib = depunc(ibgram_by_word(words,begn))
 	if len(ib) > 0:
 		beckett += choice(ib)+' '
-		# idx = choice(ib)
+		idx = choice(ib)
 	else:
 		beckett += choice(verbs)+' '
-		# idx = choice(verbs)
+		idx = choice(verbs)
 
 	beckett += '\n'
 	for s in sents_tagged:
@@ -132,10 +132,11 @@ for x in range(0, 7):
 			if len(phrase) > 0:
 				phrases.append(phrase)
 				
-	print phrases
 	if len(phrases) > 0:
 		ph = choice(phrases)
 		beckett += str(ph[0])+' '
+	else:
+		beckett += ran(adjs)+' '+ran(verbs)+' '+ran(adjs)+' '
 
 	beckett += begn+'\n\n'
 	print x
