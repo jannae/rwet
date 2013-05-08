@@ -11,7 +11,7 @@ from random import choice, randint
 #     text += line
 # brown categories: ['adventure', 'belles_lettres', 'editorial', 'fiction', 'government', 'hobbies', 'humor', 'learned', 'lore', 'mystery', 'news', 'religion', 'reviews', 'romance', 'science_fiction']
 
-if len(sys.argv) > 0:
+if len(sys.argv) > 1:
 	cat = str(sys.argv[1])
 	stanzas = int(sys.argv[2])
 else:
